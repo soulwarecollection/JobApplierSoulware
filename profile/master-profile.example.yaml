@@ -1,0 +1,69 @@
+# Copy to  profile/master-profile.yaml  and fill with your real data.
+# The real file is gitignored so your PII never lands in a public repo.
+
+identity:
+  display_name: "Your Name"
+  headline: "Lead Mobile Engineer | Flutter | Cross-Platform"
+  email: "you@example.com"
+  phone: "+00 000 000 000"
+  location: "City, Country"
+  links:
+    linkedin: "https://www.linkedin.com/in/your-handle"
+    github: ""
+    portfolio: ""
+
+preferences:
+  arrangement: ["remote", "contract"]
+  open_to_relocation: false
+  needs_sponsorship_for_onsite: true
+  timezone: "UTC+0"
+  min_salary_usd_year: null
+  notice_period: "TBD"
+
+blockers:
+  - "junior / entry-level / intern titles"
+  - "onsite-only with no remote option"
+
+target_roles:
+  primary:
+    - "Lead Flutter Developer"
+    - "Senior Mobile Engineer"
+
+ats_keywords:
+  flutter_core: [Flutter, Dart, BLoC, "Clean Architecture", "state management"]
+  backend: [REST, GraphQL, Firebase, AWS]
+
+summary: >
+  One-paragraph professional summary here.
+
+skills:
+  mobile: [Flutter, "React Native", Android, iOS]
+
+experience:
+  - company: "Company"
+    title: "Title"
+    location: "Remote"
+    start: "2024-01"
+    end: "present"
+    bullets:
+      - "Accomplished X as measured by Y, by doing Z."
+
+projects:
+  - name: "Project"
+    stack: [Flutter, REST]
+    link: "example.com"
+    tags: [mobile]
+
+education:
+  - degree: "BSc Computer Science"
+    school: "University"
+    location: "City, Country"
+    start: "2011"
+    end: "2015"
+
+application_answers:
+  work_authorization: "Remote / contract / EOR globally; sponsorship needed for onsite."
+  notice_period: "TBD"
+  salary_expectation_usd: "TBD"
+  years_experience: 10
+  willing_to_relocate: false

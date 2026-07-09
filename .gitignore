@@ -1,0 +1,11 @@
+# Personal data — keep OUT of a public repo
+profile/master-profile.yaml
+profile/master-resume-ats.md
+.env
+output/
+aihawk/
+
+# Python
+.venv/
+__pycache__/
+*.pyc
